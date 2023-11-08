@@ -1,0 +1,247 @@
+/* below first image */
+
+.top{
+    width: 1519px;
+    height: 1000px;
+    /* border: 6px solid red; */
+    /* background-color: #ffffff; */
+}
+
+#below_image{
+    width: 1519px;
+    height: 1050px;
+    /* border: 6px solid blue; */
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#below_image{
+    width: 1519px;
+    height: 1050px;
+    /* border: 6px solid blue; */
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#inside_below_image{
+    width: 1030px;
+    height: 1020px;
+    /* border: 2px solid red; */
+}
+
+#inside_below_image1{
+    width: 1030px;
+    height: 144px;
+    /* border: 2px solid blue; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+#inside_below_image1_1{
+    width: 354px;
+    height: 40px;
+    /* border: 2px solid green; */
+    background-color: white;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inside_below_image1_1 span{
+    /* border: 2px solid red; */
+    display: block;
+    height: 40px;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+#inside_below_image1_1 span:first-child{
+    border-bottom: 3px solid #000;
+    /* display: block; */
+    /* color: #ffffff; */
+    flex: 1;
+}
+
+#inside_below_image1_2{
+    width: 1030px;
+    height: 104px;
+    /* border: 2px solid green; */
+    background-color: #f5f5f5;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+#location{
+    width: 1010px;
+    height: 56px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.in_image2{
+    width: 305px;
+    height: 56px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+
+.in_image2 span{
+    border: 2px solid none;
+}
+
+.in_image2 span:first-child{
+    margin-left: 20px;
+    margin-right: 25px;
+    font-size: 9px;
+    color: #cddc39;
+}
+
+.in_image2 span:nth-child(2){
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+.in_image2 span:nth-child(2){
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+.in_image2 span:nth-child(3) img{
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+
+#location .in_image2:nth-child(2) span:first-child{
+    margin-left: 20px;
+    margin-right: 25px;
+    font-size: 9px;
+    color: #E97550;
+}
+
+#location .in_image2:nth-child(3){
+    border: none;
+    box-shadow: -3px 3px 0 #32c86e;;
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg'), radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 30px;
+}
+#location .in_image2:nth-child(3) p:first-child{
+    color: white;
+}
+
+#location .in_image2:nth-child(3) p:nth-child(2){
+    color: #32c86e;
+    margin-right: 90px;
+}
+
+#location .in_image2:nth-child(3) p:last-child{
+    color: #32c86e;
+}
+
+#below_location{
+    width: 1030px;
+    height: 195px;
+    /* border: 2px solid red; */
+}
+
+#below_location img{
+    width: 1030px;
+    height: 195px;
+    /* border: 2px solid blue; */
+    
+}
+
+#content{
+    width: 1030px;
+    height: 541px;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.text{
+    width: 700px;
+    height: 176px;
+    /* border: 2px solid red; */
+    font-weight: 500;
+    /* font-family: 'Poppins', sans-serif; */
+    text-shadow: 1.152px 1.152px 0px #FFFFFF, 1.728px 1.728px 0px #92C83E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.below_text{
+    width: 1030px;
+    height: 298px;
+    /* border: 2px solid red; */
+    /* font-family: 'Poppins', sans-serif; */
+    display: flex;
+}
+
+.below_text_images{
+    width: 327px;
+    height: 298px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.below_text_images img{
+    width: 142px;
+    height: 142px;
+
+}
+
+.below_text_images .inside_text{
+    width: 327px;
+    height: 158px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.inside_text .one{
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.inside_text .two{
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.inside_text .three{
+    color: gray;
+    font-size: 13px;
+    /* font-weight: 600; */
+}

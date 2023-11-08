@@ -1,0 +1,225 @@
+/* in this file nav and footer css code here */
+@import url(top.css);
+@import url(main3.css);
+@import url(main4.css);
+@import url(main5.css);
+@import url(main6.css);
+@import url(main7.css);
+@import url(main8.css);
+@import url(main9.css);
+@import url(main10.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-white : white;
+}
+
+main{
+    width: 1519px;
+    height: auto;
+    /* border: 2px solid aqua; */
+}
+
+#border{
+    width: 1519px;
+    height: auto;
+    /* border: 2px solid blue; */
+}
+
+#body_top-image{
+    width: 1519px;
+    height: 360px;
+    /* border: 2px solid green; */
+    background-image: url('./assest/hero-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+nav{
+    width: 1519px;
+    height: 66px;
+    /* border: 2px solid yellow; */
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    position: fixed;
+}
+
+#nav_left{
+    width: 400px;
+    height: 34px;
+    /* border: 2px solid red; */
+    margin-left: 76.5px;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav_left span{
+    /* border: 2px solid blue; */
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#nav_left span:hover{
+    cursor: pointer;
+}
+
+
+#nav_right{
+    width: 340px;
+    height: 44px;
+    /* border: 2px solid red; */
+    margin-right: 76.5px;
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav_right_one:first-child{
+    width: 122px;
+    height: 44px;
+    /* border: 2px solid yellow; */
+    background: rgba(255, 255, 255, 0.17);
+    color: var(--color-white);
+    font-size: 12px;
+    font-size: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_right_one:nth-child(2){
+    width: 124px;
+    height: 44px;
+    /* border: 2px solid yellow; */
+    background-color: #ffffff;
+    color: #000;
+    font-size: 12px;
+    font-size: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_right_one:nth-child(3){
+    width: 44px;
+    height: 44px;
+    /* border: 2px solid yellow; */
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer{
+    width: 1519px;
+    height: 398px;
+    /* border: 3px solid blue; */
+    background-color: #F2F4F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewY(-3deg);
+}
+
+#in_footer{
+    transform: skewY(3deg);
+    width: 1020px;
+    height: 330px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.below_foot1{
+    width: 156px;
+    height: 204px;
+    /* border: 2px solid #cddc39; */
+}
+
+.below_foot1 img + ol{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.below_foot1 img + ol li{
+    width: 150px;
+    height: 40px;
+    display: inline;
+    /* justify-content: space-between; */
+}
+
+.below_foot2{
+    width: 136px;
+    height: 204px;
+    /* border: 2px solid green; */
+    /* line-height: 5px; */
+}
+
+.below_foot2 ol{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    /* line-height: 1; */
+}
+
+.below_foot2 ol li{
+    width: 150px;
+    height: 40px;
+    /* line-height: 2px; */
+}
+
+.below_foot3{
+    width: 296px;
+    height: 188px;
+    /* border: 2px solid orange; */
+}
+
+.below_foot3 input{
+    margin-top: 20px;
+    width: 296px;
+    height: 58px;
+    /* border: 1px solid gray; */
+}
+
+#search_foot{
+    margin-top: 20px;
+    color: white;
+    width: 296px;
+    height: 56px;
+    /* border: 2px solid black; */
+    background: radial-gradient(127.68% 2996.56% at 12.65% 127.68%,#000 0,#222 100%);
+    box-shadow: -3px 3px 0 #32c86e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_foot span{
+    color: #16AA51;
+}

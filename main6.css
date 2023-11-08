@@ -1,0 +1,138 @@
+#main_6{
+    width: 1519px;
+    height: auto;
+    /* border: 5px solid blueviolet; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /* transform: skew(-10deg); */
+}
+
+#in_main6{
+    /* transform: skew(10deg); */
+    width: 1030px;
+    height: 1396px;
+    /* border: 4px solid red; */
+}
+
+#in_main6_1{
+    width: 1030px;
+    height: 98px;
+    /* border: 4px solid green; */
+    text-shadow: 1.152px 1.152px 0px #FFFFFF, 1.728px 1.728px 0px #92C83E;
+    font-weight: 300;
+    line-height: 56px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#in_main6_2{
+    width: 1030px;
+    height: 525px;
+    /* border: 4px solid blue; */
+    /* background-color: #F0F4F4; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+}
+
+.img_content_in2{
+    width: 330px;
+    height: 525px;
+    /* border: 4px solid rgb(20, 20, 47); */
+}
+
+.in_main6_img{
+    width: 330px;
+    height: 243px;
+    /* border: 2px solid red; */
+}
+
+.in_main6_img img{
+    width: 330px;
+    height: 243px;
+}
+
+.in_main6_content{
+    width: 330px;
+    height: 243px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.in_main6_content p:first-child{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.in_main6_content p:last-child{
+    font-size: 18px;
+    font-weight: 300;
+    color: #525252;
+}
+
+#in_main6_3{
+    width: 1030px;
+    height: 623px;
+    /* border: 4px solid blueviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+#in_main6_3_img{
+    width: 490px;
+    height: 623px;
+    /* border: 2px solid black; */
+}
+
+#in_main6_3_img video{
+    width: 490px;
+    height: 622px;
+}
+
+#in_main6_3_text{
+    width: 490px;
+    height: 623px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#in_text{
+    width: 481px;
+    height: 409px;
+    /* border: 4px solid yellow; */
+}
+
+.text_1{
+    width: 481px;
+    height: 122px;
+    /* border: 2px solid blue; */
+}
+
+#text_1 p{
+    font-weight: 600;
+    font-size: 45px;
+    text-shadow: 1.152px 1.152px 0px #FFFFFF, 1.728px 1.728px 0px #92C83E;
+}
+
+.text_2{
+    width: 481px;
+    height: 122px;
+    /* border-left: 2px solid blue; */
+}
+.t1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.t2{
+    font-size: 18px;
+    font-weight: 200;
+    color: #525252;
+}
